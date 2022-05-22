@@ -1,7 +1,7 @@
-Bioinfotest - Desafio
+Bioinfotest - Desafio7
 =========
 
-Este repositório contém o fluxo de trabalho desenvolvido para resolução do desafio.
+Este repositório contém o fluxo de trabalho desenvolvido para resolução do desafio7.
 
 .. image:: img/metavir_workflow.png
    :width: 600
