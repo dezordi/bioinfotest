@@ -1,16 +1,21 @@
-
+Respostas do Desafio Técnico 5
 
 1 - Quantas sequências de DNA de paciente sequenciados temos nos arquivos de fastqs R1 e R2 respectivamente ?
+R: Existem 64276 sequencias no arquivo R1 e 64276 sequencias no arquivo R2. Totalizando 128552 sequencias.
 
 2 - Sobre o genoma humano hg19, quantos contigs tem o nosso genoma hg19 (hg19.fasta) aqui disponibilizado para este pipeline ?
+R: Existem 93 contigs no arquivo ../data/hg19.fasta.
 
-3 - Quantos alinhamentos há na região chr17:41197694-41197819 ? 
+3 - Quantos alinhamentos há na região chr17:41197694-41197819 ?
+R: Existem 2191 sequencias mapeadas na região chr17:41197694-41197819
 
+4 - Quantos alinhamentos não conseguiram ser mapeados (unmapped alignments ?)
+R: 2408 sequencias não foram mapeadas considerando todo o genoma de referência.
 
-4 - Quantos alinhamentos não conseguiram ser mapeados (unmapped alignments ?) 
+5 - Realize o alinhamento das sequências FASTQ contra o genoma de referência hg19 aqui disponibilizado, e realize a chamada de variantes utilizando a região alvo BRCA.list (interesse apenas na região dos genes BRCA1 e BRCA2) Realize a anotação de dados funcionais usando o SNPEFF.Com este arquivo em mãos, responda as seguintes perguntas:
 
+5.1 - Quantas variantes existem com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ?
+R: Existem 1 variante do tipo HIGH, 2 variantes do tipo MODERATE, e 4 variantes do tipo LOW.
 
-5 - Realize o alinhamento das sequências FASTQ contra o genoma de referência hg19 aqui disponibilizado, e realize a chamada de variantes utilizando a região alvo BRCA.list (interesse apenas na região dos genes BRCA1 e BRCA2).  Realize a anotação de dados funcionais usando o SNPEFF.
- Com este arquivo em mãos , responda as seguintes perguntas ?
-
-5.1- Quantas variantes existem com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ? Existe alguma variante em HIGH ? Qual é cromossomo, posição e a alteração ?
+5.2 - Existe alguma variante em HIGH ? Qual é cromossomo, posição e a alteração ?
+R: A variante do tipo HIGH se encontra no cromossomo chr17, na posição 41222948, onde ocorreu uma alteração de TTCTTCTGGGGTCAGGCCAGA para TA.

@@ -9,7 +9,9 @@ RUN conda install -c bioconda tabix
 
 # Install fastqc
 RUN conda install conda-forge::openjdk && \
-    conda install -c bioconda fastqc
+    conda install -c bioconda fastqc && \
+    conda install -c bioconda fastp=0.20.1
+
 
 # Install bwa
 RUN conda install -c bioconda bwa
